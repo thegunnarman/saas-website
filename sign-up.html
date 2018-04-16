@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up</title>
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body class="max-width max-length">
+
+  <header class="push">
+
+    <div class="grid grid-middle masthead island-1-2">
+      <div class="unit logo-head unit-content-center xs-1 s-1 m-1-4 l-1-4 xl-1-4">
+        <i class="icon i-48"><img class="ib" src="images/logo.png" alt=""></i>
+        <p class="logo icon-label ib push-0 exa logo-text">Tune Tube</p>
+      </div>
+      <nav class="unit xs-1 s-1 m-3-4 l-3-4 xl-3-4 text-right">
+        <ul class="nav grid list-group-inline push-0">
+          <li class="unit xs-1-2 s-1-2 m-1-4 l-1-4 text-center"><a class="home" href="index.html">Home</a></li>
+          <li class="unit xs-1-2 s-1-2 m-1-4 l-1-4 text-center"><a class="tour" href="tour.html">Tour</a></li>
+          <li class="unit xs-1-2 s-1-2 m-1-4 l-1-4 text-center"><a class="pricing" href="pricing.html">Plans</a></li>
+          <li class="unit xs-1-2 s-1-2 m-1-4 l-1-4 text-center"><a class="sign current" href="sign-up.html">Sign Up!</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+  <main>
+
+    <form class="gutter max-length" method="POST" action="https://formspree.io/patlepage@gmail.com">
+      <h1 class="pad-t-2 wrapper text-center yotta">Sign up now!</h1>
+
+      <section class="contact push-2">
+        <fieldset>
+          <legend class="push-1-2 peta">Ready?</legend>
+          <div class="grid max-length">
+            <div class="name unit xs-1 s-1 m-1 l-1-1 push">
+              <label class="pad-b-1-4" for="name">Name</label>
+              <input id="name" name="name">
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4">
+            <label class="push-1-8" for="nick-name">What should we call you?</label>
+            <input id="nick-name" name="nick-name" required>
+            <p class="micro italic">What all your friends call you, e.g. “Liz”.</p>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 push">
+            <label class="push-1-4" for="date">Date of birth</label>
+            <input id="date" type="date" name="date" required>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 push">
+          <label class="push-1-8" for="address">Street address</label>
+          <input id="address" name="address" required>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 push-2 pad-t-1-4">
+          <label class="push-1-8" for="city">City</label>
+          <input id="city" name="city" required>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 push">
+          <label class="push-1-8" for="province">Province</label>
+          <select id="province" name="province" required>
+            <option value="">Select a province</option>
+            <option>Alberta</option>
+            <option>British Columbia</option>
+            <option>Manitoba</option>
+            <option>New Brunswick</option>
+            <option>Newfoundland & Labrador</option>
+            <option>Northwest Territories</option>
+            <option>Nova Scotia</option>
+            <option>Nunavut</option>
+            <option>Ontario</option>
+            <option>Prince Edward Island</option>
+            <option>Québec</option>
+            <option>Saskatchewan</option>
+            <option>Yukon</option>
+          </select>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 push">
+          <label class="push-1-8" for="postal-code">Postal code</label>
+          <input id="postal-code" name="postal-code" required>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 push">
+        <label class="push-1-8" for="favorite-decade">Favorite decade</label>
+        <select id="province" name="province" required>
+          <option value="">60s</option>
+          <option>50s</option>
+          <option>60s</option>
+          <option>70s</option>
+          <option>80s</option>
+          <option>90s</option>
+          <option>00s</option>
+
+        </select>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 push">
+        <label class="push-1-8" for="favorite-music-style">Favorite-music-style</label>
+        <select id="province" name="province" required>
+          <option value="">Rap</option>
+          <option>Country</option>
+          <option>Pop</option>
+          <option>Jazz</option>
+
+        </select>
+      </div>
+
+
+            <div class="email unit xs-1 s-1 m-1 l-1-1 push">
+              <label class="pad-b-1-4" for="email">Email</label>
+              <input id="email" type="email" name="email">
+            </div>
+            <div class="use unit xs-1 s-1 m-1 l-1-1 push">
+              <label class="pad-b-1-4" for="user">Username</label>
+              <input id="user" name="user">
+            </div>
+            <div class="pass unit xs-1 s-1 m-1 l-1-1 push">
+              <label class="pad-b-1-4" for="password">Password</label>
+              <input id="password" name="password">
+            </div>
+            <div class="re-type unit xs-1 s-1 m-1 l-1-1 push">
+              <label class="pad-b-1-4" for="password-2">Re-Type Password</label>
+              <input id="password-2" name="password-2">
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1 text-center push-2">
+              <button class="btn" type="submit">Finish that form!</button>
+            </div>
+          </div>
+        </fieldset>
+      </section>
+
+    </form>
+
+
+
+  </main>
+
+  <footer class="island-1-4">
+    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+      <img class=" island img-flex" src="images/placeholder-1by1.svg" alt="">
+    </div>
+    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+      <img class=" island img-flex" src="images/placeholder-1by1.svg" alt="">
+    </div>
+    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+      <img class=" island img-flex" src="images/placeholder-1by1.svg" alt="">
+    </div>
+    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+      <img class=" island img-flex" src="images/placeholder-1by1.svg" alt="">
+    </div>
+
+
+    <small class="text-center micro block">©Tune Tube</small>
+
+  </footer>
+
+</body>
+</html>

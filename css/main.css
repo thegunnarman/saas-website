@@ -1,0 +1,113 @@
+html {
+  font-family: Bitter, serif;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.logo-text,
+.pricing-head {
+  font-family: 'Roboto', sans-serif;
+}
+
+.masthead {
+  background-color: #224062;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.current {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #5cade5;
+}
+
+.btn {
+  background-color: #224062;
+  border-radius: 0;
+  border-color: #224062;
+  border-style: outset;
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+  height: 25rem;
+  background-image: url("../images/home-banner.jpg");
+  background-size: cover;
+  background-position: 50%;
+  opacity: .8;
+}
+
+.banner-tour {
+  height: 25rem;
+  background-image: url("../images/tour-banner.jpg");
+  background-size: cover;
+  background-position: 50%;
+  opacity: .8;
+}
+
+.banner-pricing {
+  height: 25rem;
+  background-image: url("../images/pricing-banner.jpg");
+  background-size: cover;
+  background-position: 50%;
+  opacity: .8;
+}
+
+.head-text,
+.head-body {
+  color: #224062;
+}
+
+.card {
+  border: solid;
+  border-color: #224062;
+  border-width: medium;
+  max-width: 80%;
+  border-style: outset;
+}
+
+.black {
+  background-color: #224062;
+}
+
+.text-left {
+  max-width: 28em;
+}
+
+footer {
+  background-color: #224062;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.banner-banner {
+  position: relative;
+  margin: 0;
+}
+
+.figure {
+  margin: 0;
+  padding: 0;
+}
+
+.banner-content-content {
+  position: absolute;
+  left: .5rem;
+  bottom: .5rem;
+  max-width: 15em;
+  border-radius: .5rem;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  line-height: 1.3;
+  padding: 0 1rem;
+  margin: 0;
+}

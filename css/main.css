@@ -9,7 +9,7 @@ html {
 
 .logo-text,
 .pricing-head {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .masthead {
@@ -35,7 +35,7 @@ a:hover {
   border-radius: 0;
   border-color: #224062;
   border-style: outset;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .banner {
@@ -71,7 +71,7 @@ a:hover {
   border: solid;
   border-color: #224062;
   border-width: medium;
-  max-width: 80%;
+  max-width: 100%;
   border-style: outset;
 }
 
@@ -85,7 +85,7 @@ a:hover {
 
 footer {
   background-color: #224062;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 

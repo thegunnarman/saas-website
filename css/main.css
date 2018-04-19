@@ -13,7 +13,7 @@ html {
 
 a {
   text-decoration: none;
-  color: #ef7724;
+  color: #f9c886;
 }
 
 .current {
@@ -42,12 +42,22 @@ a:hover {
   font-family: Roboto, sans-serif;
 }
 
+.bannerbanner {
+  height: 25rem;
+  background-image: url("../images/amplifier.jpeg");
+  background-size: 50% 50%, cover cover;
+  background-position: 50%;
+  opacity: .2;
+  background-repeat: no-repeat;
+}
+
 .banner {
   height: 25rem;
-  background-image: url("../images/home-banner.jpg");
-  background-size: cover;
-  background-position: 50%;
+  background-image: url("../images/amplifier.jpeg");
+  background-size: 100% 100%,  cover;
+  background-position: center center;
   opacity: .8;
+  background-repeat: no-repeat;
 }
 
 .banner-tour {
@@ -112,11 +122,12 @@ footer {
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
 
+
   padding: 0 1rem;
   margin: 0;
 }
 
-.socialmedia{
-  max-width: 5em;
-  max-height: 5em;
+.banner-content {
+  background-color: #fff;
+  border-radius: .5rem;
 }

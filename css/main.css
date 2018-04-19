@@ -13,7 +13,7 @@ html {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #ef7724;
 }
 
 .current {
@@ -23,6 +23,10 @@ a {
 h1 {
   color: #fff;
 
+}
+
+.navtext {
+  color:  #ef7724;
 }
 
 a:hover {

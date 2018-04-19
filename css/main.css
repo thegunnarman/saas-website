@@ -70,10 +70,11 @@ a:hover {
 
 .banner-pricing {
   height: 25rem;
-  background-image: url("../images/pricing-banner.jpg");
-  background-size: cover;
+  background-image: url("../images/amplifier.jpeg");
+  background-size: 50% 50%, cover cover;
   background-position: 50%;
   opacity: .8;
+  background-repeat: no-repeat;
 }
 
 .head-text,
@@ -87,6 +88,7 @@ a:hover {
   border-width: medium;
   max-width: 100%;
   border-style: outset;
+  min-height: 25em;
 }
 
 .black {

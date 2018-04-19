@@ -4,7 +4,7 @@ html {
 
 .logo-text,
 .pricing-head {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .masthead {
@@ -39,7 +39,7 @@ a:hover {
   border-radius: 0;
   border-color: #224062;
   border-style: outset;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .banner {
@@ -89,7 +89,7 @@ a:hover {
 
 footer {
   background-color: #224062;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 
@@ -114,4 +114,9 @@ footer {
 
   padding: 0 1rem;
   margin: 0;
+}
+
+.socialmedia{
+  max-width: 5em;
+  max-height: 5em;
 }
